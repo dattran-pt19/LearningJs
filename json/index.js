@@ -13,7 +13,6 @@ switch (option) {
 	var listStudentsJson = fs.readFileSync('./list_student.json');
 	var listStudents = JSON.parse(listStudentsJson).listStudents;
 	console.log(listStudents);
-	showOption();
 	break;
 	case 1:
 	var listStudentsJson = fs.readFileSync('./list_student.json');
